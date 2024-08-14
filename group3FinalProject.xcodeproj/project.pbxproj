@@ -14,6 +14,10 @@
 		BDFD28C52C6B592E009CF23A /* group3FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD28C42C6B592E009CF23A /* group3FinalProjectTests.swift */; };
 		BDFD28CF2C6B592E009CF23A /* group3FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD28CE2C6B592E009CF23A /* group3FinalProjectUITests.swift */; };
 		BDFD28D12C6B592E009CF23A /* group3FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD28D02C6B592E009CF23A /* group3FinalProjectUITestsLaunchTests.swift */; };
+		BDFD29542C6CEF2C009CF23A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD29532C6CEF2C009CF23A /* HomeView.swift */; };
+		BDFD29562C6CF011009CF23A /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD29552C6CF011009CF23A /* NewsView.swift */; };
+		BDFD29582C6CF025009CF23A /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD29572C6CF025009CF23A /* FinanceView.swift */; };
+		BDFD295A2C6CF037009CF23A /* MentalHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD29592C6CF037009CF23A /* MentalHealthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		BDFD28CA2C6B592E009CF23A /* group3FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = group3FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFD28CE2C6B592E009CF23A /* group3FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group3FinalProjectUITests.swift; sourceTree = "<group>"; };
 		BDFD28D02C6B592E009CF23A /* group3FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group3FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDFD29532C6CEF2C009CF23A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BDFD29552C6CF011009CF23A /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		BDFD29572C6CF025009CF23A /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		BDFD29592C6CF037009CF23A /* MentalHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				BDFD28B32C6B592C009CF23A /* group3FinalProjectApp.swift */,
 				BDFD28B52C6B592C009CF23A /* ContentView.swift */,
+				BDFD29532C6CEF2C009CF23A /* HomeView.swift */,
+				BDFD29552C6CF011009CF23A /* NewsView.swift */,
+				BDFD29592C6CF037009CF23A /* MentalHealthView.swift */,
+				BDFD29572C6CF025009CF23A /* FinanceView.swift */,
 				BDFD28B72C6B592E009CF23A /* Assets.xcassets */,
 				BDFD28B92C6B592E009CF23A /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFD29542C6CEF2C009CF23A /* HomeView.swift in Sources */,
+				BDFD29562C6CF011009CF23A /* NewsView.swift in Sources */,
 				BDFD28B62C6B592C009CF23A /* ContentView.swift in Sources */,
+				BDFD29582C6CF025009CF23A /* FinanceView.swift in Sources */,
 				BDFD28B42C6B592C009CF23A /* group3FinalProjectApp.swift in Sources */,
+				BDFD295A2C6CF037009CF23A /* MentalHealthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

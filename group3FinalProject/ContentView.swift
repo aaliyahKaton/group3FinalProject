@@ -22,3 +22,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+//ATTENTION DO NOT EDIT, CONTENT VIEW IS NOT THE HOME PAGE
