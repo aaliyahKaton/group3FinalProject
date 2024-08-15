@@ -1,54 +1,50 @@
 //
-//  MentalHealthView.swift
+//  Diary.swift
 //  group3FinalProject
 //
-//  Created by Scholar on 14/08/2024.
+//  Created by Scholar on 15/08/2024.
 //
 
 import SwiftUI
 import SwiftData
 
-struct MentalHealthView: View {
-    @State var selectedDate = Date()
+
+struct Diary: View {
+    @State private var name = ""
+    @State private var textTitle = "Write your thoughts..."
+    
     var body: some View {
-        NavigationStack {
+        NavigationStack{
             ZStack{
                 Image("backgroundBlue")
                     .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
-                VStack {
-                    Text("Mental Health")
-                }//vstack
-                
-                //    NavigationStack {
-                //    ZStack{
-                
-                // Image("backgroundBlue")
-                //.resizable(resizingMode: .stretch)
-                // .ignoresSafeArea()
-                
                 VStack{
-                    NavigationLink(destination: Diary()) {
-                        Text("Diary")
-                            .frame(width: 60, height: 50)
-                            .background(Rectangle()
-                                .foregroundColor(.white))
-                            .cornerRadius(10)
-                            .shadow(radius : 5)
-                            .navigationBarBackButtonHidden(true)
-                    }//nav link
-                    .padding(.top, 450)
-                }//vstack
-                
-                
-                
-                VStack() {
-                    CalendarView(selectedDate: $selectedDate)
-                        .padding()
-                    Text(selectedDate.formatted(date: .abbreviated, time: .omitted))
-                        .font(.headline)
-                }//vstack
-                .frame(width: 300.0, height: 300.0)
+                    
+                    Text(textTitle)
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.blue)
+                        .padding(.top)
+                    
+                    TextField("", text: $name, axis: .vertical)
+                        .multilineTextAlignment(.center)
+                        .font(.title)
+                        .border(Color.gray, width:1)
+                        .lineLimit(5, reservesSpace: true)
+                    //try to add rounded edges to textfield
+                    //.textFieldStyle(.roundedBorder)
+                    
+                    Button("Enter") {
+                        
+                        textTitle = "Have a good day!!"
+                    }//ending for button
+                    .font(.title2)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.blue)
+                    
+                }//ending of vstack
+                .padding()
                 .padding()
                 .background(Rectangle()
                     .foregroundColor(
@@ -57,10 +53,9 @@ struct MentalHealthView: View {
                 )
                 .padding()
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-                
                 VStack{
                     HStack{
-                        Text(" 📅  CALENDAR  📅 ")
+                        Text(" ✍️  DIARY  ✍️ ")
                             .font(.system(size: 35))
                             .fontWeight(.semibold)
                     }//hstack
@@ -72,13 +67,9 @@ struct MentalHealthView: View {
                     .padding()
                     .shadow(radius: 10)
                     Spacer()
+                    
+                    
                 }//vstack for hstack
-                
-                // }// zstack 1
-                
-                
-                //  }//nav stack
-                
                 
                 .toolbar {
                     ToolbarItemGroup(placement: .status) {
@@ -103,15 +94,20 @@ struct MentalHealthView: View {
                             Image(systemName:"brain.head.profile")
                             .padding(.leading)}
                         
-                    }
+                    }//toolbaritemgroup
                     
-                }
+                }//toolbar
                 .navigationBarHidden(true)
-            }
-        }
-    }
-}
+                
+            }//zstack
+           
+        }//nav stack
+        
+        
+    }//body
+}//struct
+
 
 #Preview {
-    MentalHealthView()
+    Diary()
 }

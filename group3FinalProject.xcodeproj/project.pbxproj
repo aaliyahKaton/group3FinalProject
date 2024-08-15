@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD884ED92C6E21E6001CC1E5 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD884ED82C6E21E6001CC1E5 /* calendar.swift */; };
+		BD884EDC2C6E23B0001CC1E5 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD884EDB2C6E23B0001CC1E5 /* Diary.swift */; };
 		BDFD28B42C6B592C009CF23A /* group3FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD28B32C6B592C009CF23A /* group3FinalProjectApp.swift */; };
 		BDFD28B62C6B592C009CF23A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD28B52C6B592C009CF23A /* ContentView.swift */; };
 		BDFD28B82C6B592E009CF23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFD28B72C6B592E009CF23A /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD884ED82C6E21E6001CC1E5 /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
+		BD884EDB2C6E23B0001CC1E5 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		BDFD28B02C6B592C009CF23A /* group3FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = group3FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFD28B32C6B592C009CF23A /* group3FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group3FinalProjectApp.swift; sourceTree = "<group>"; };
 		BDFD28B52C6B592C009CF23A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				BDFD29532C6CEF2C009CF23A /* HomeView.swift */,
 				BDFD29552C6CF011009CF23A /* NewsView.swift */,
 				BDFD29592C6CF037009CF23A /* MentalHealthView.swift */,
+				BD884ED82C6E21E6001CC1E5 /* calendar.swift */,
+				BD884EDB2C6E23B0001CC1E5 /* Diary.swift */,
 				BDFD29572C6CF025009CF23A /* FinanceView.swift */,
 				BDFD28B72C6B592E009CF23A /* Assets.xcassets */,
 				BDFD28B92C6B592E009CF23A /* Preview Content */,
@@ -269,12 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD884ED92C6E21E6001CC1E5 /* calendar.swift in Sources */,
 				BDFD29542C6CEF2C009CF23A /* HomeView.swift in Sources */,
 				BDFD29562C6CF011009CF23A /* NewsView.swift in Sources */,
 				BDFD28B62C6B592C009CF23A /* ContentView.swift in Sources */,
 				BDFD29582C6CF025009CF23A /* FinanceView.swift in Sources */,
 				BDFD28B42C6B592C009CF23A /* group3FinalProjectApp.swift in Sources */,
 				BDFD295A2C6CF037009CF23A /* MentalHealthView.swift in Sources */,
+				BD884EDC2C6E23B0001CC1E5 /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
