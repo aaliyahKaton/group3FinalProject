@@ -74,10 +74,6 @@ struct MentalHealthView: View {
                     Spacer()
                 }//vstack for hstack
                 
-                // }// zstack 1
-                
-                
-                //  }//nav stack
                 
                 
                 .toolbar {
