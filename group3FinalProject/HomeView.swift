@@ -26,14 +26,16 @@ struct HomeView: View {
                     .ignoresSafeArea()
                 
                 VStack {
-                    Text("Welcome to Adulting!!!")
+                    Spacer()
+                    Text("Adulting")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .padding()
-                    
+                    //Spacer()
                     // Display a random quote
                     Text(pickQuote())
-                        .font(.title2)
+                        .font(.largeTitle)
+                        .multilineTextAlignment(.center)
                         .italic()
                         .padding()
                     

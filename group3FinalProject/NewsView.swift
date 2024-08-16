@@ -13,7 +13,7 @@ struct NewsView: View {
             ZStack{
                 Image("backgroundBlue")
                 VStack {
-                    Text("News")
+                    
                     
                     NavigationStack {
                         
