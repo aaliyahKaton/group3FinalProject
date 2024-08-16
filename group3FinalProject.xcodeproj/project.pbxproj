@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		BD884ED92C6E21E6001CC1E5 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD884ED82C6E21E6001CC1E5 /* calendar.swift */; };
 		BD884EDC2C6E23B0001CC1E5 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD884EDB2C6E23B0001CC1E5 /* Diary.swift */; };
+		BDB272522C6F55960059FEE3 /* article1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB272512C6F55960059FEE3 /* article1.swift */; };
+		BDB272542C6F55C90059FEE3 /* article2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB272532C6F55C90059FEE3 /* article2.swift */; };
+		BDB272562C6F55F50059FEE3 /* article3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB272552C6F55F50059FEE3 /* article3.swift */; };
 		BDC113962C6E468800CD02C7 /* BeginnerResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC113952C6E468800CD02C7 /* BeginnerResources.swift */; };
 		BDC113982C6E46BD00CD02C7 /* StudentFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC113972C6E46BD00CD02C7 /* StudentFinance.swift */; };
 		BDC1139A2C6E46DE00CD02C7 /* SideHustles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC113992C6E46DE00CD02C7 /* SideHustles.swift */; };
@@ -45,6 +48,9 @@
 /* Begin PBXFileReference section */
 		BD884ED82C6E21E6001CC1E5 /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
 		BD884EDB2C6E23B0001CC1E5 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		BDB272512C6F55960059FEE3 /* article1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article1.swift; sourceTree = "<group>"; };
+		BDB272532C6F55C90059FEE3 /* article2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article2.swift; sourceTree = "<group>"; };
+		BDB272552C6F55F50059FEE3 /* article3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = article3.swift; sourceTree = "<group>"; };
 		BDC113952C6E468800CD02C7 /* BeginnerResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginnerResources.swift; sourceTree = "<group>"; };
 		BDC113972C6E46BD00CD02C7 /* StudentFinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentFinance.swift; sourceTree = "<group>"; };
 		BDC113992C6E46DE00CD02C7 /* SideHustles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideHustles.swift; sourceTree = "<group>"; };
@@ -116,7 +122,10 @@
 				BDFD28B52C6B592C009CF23A /* ContentView.swift */,
 				BDFD29532C6CEF2C009CF23A /* HomeView.swift */,
 				BDFD29552C6CF011009CF23A /* NewsView.swift */,
+				BDB272512C6F55960059FEE3 /* article1.swift */,
+				BDB272532C6F55C90059FEE3 /* article2.swift */,
 				BDFD29592C6CF037009CF23A /* MentalHealthView.swift */,
+				BDB272552C6F55F50059FEE3 /* article3.swift */,
 				BD884ED82C6E21E6001CC1E5 /* calendar.swift */,
 				BD884EDB2C6E23B0001CC1E5 /* Diary.swift */,
 				BDFD29572C6CF025009CF23A /* FinanceView.swift */,
@@ -290,10 +299,13 @@
 				BDFD29542C6CEF2C009CF23A /* HomeView.swift in Sources */,
 				BDC1139A2C6E46DE00CD02C7 /* SideHustles.swift in Sources */,
 				BDFD29562C6CF011009CF23A /* NewsView.swift in Sources */,
+				BDB272542C6F55C90059FEE3 /* article2.swift in Sources */,
 				BDFD28B62C6B592C009CF23A /* ContentView.swift in Sources */,
+				BDB272562C6F55F50059FEE3 /* article3.swift in Sources */,
 				BDFD29582C6CF025009CF23A /* FinanceView.swift in Sources */,
 				BDFD28B42C6B592C009CF23A /* group3FinalProjectApp.swift in Sources */,
 				BDFD295A2C6CF037009CF23A /* MentalHealthView.swift in Sources */,
+				BDB272522C6F55960059FEE3 /* article1.swift in Sources */,
 				BD884EDC2C6E23B0001CC1E5 /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
